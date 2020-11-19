@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ABC07532566629700F20464 /* TravalHw4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07522566629700F20464 /* TravalHw4App.swift */; };
+		9ABC07552566629700F20464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07542566629700F20464 /* ContentView.swift */; };
+		9ABC07572566629900F20464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC07562566629900F20464 /* Assets.xcassets */; };
+		9ABC075A2566629900F20464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC07592566629900F20464 /* Preview Assets.xcassets */; };
+		9ABC07652566629900F20464 /* TravalHw4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07642566629900F20464 /* TravalHw4Tests.swift */; };
+		9ABC07702566629900F20464 /* TravalHw4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC076F2566629900F20464 /* TravalHw4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ABC07612566629900F20464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ABC07472566629700F20464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ABC074E2566629700F20464;
+			remoteInfo = TravalHw4;
+		};
+		9ABC076C2566629900F20464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ABC07472566629700F20464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ABC074E2566629700F20464;
+			remoteInfo = TravalHw4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ABC074F2566629700F20464 /* TravalHw4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravalHw4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABC07522566629700F20464 /* TravalHw4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravalHw4App.swift; sourceTree = "<group>"; };
+		9ABC07542566629700F20464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ABC07562566629900F20464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ABC07592566629900F20464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ABC075B2566629900F20464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABC07602566629900F20464 /* TravalHw4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravalHw4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABC07642566629900F20464 /* TravalHw4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravalHw4Tests.swift; sourceTree = "<group>"; };
+		9ABC07662566629900F20464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABC076B2566629900F20464 /* TravalHw4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravalHw4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABC076F2566629900F20464 /* TravalHw4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravalHw4UITests.swift; sourceTree = "<group>"; };
+		9ABC07712566629900F20464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABC074C2566629700F20464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC075D2566629900F20464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC07682566629900F20464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ABC07462566629700F20464 = {
+			isa = PBXGroup;
+			children = (
+				9ABC07512566629700F20464 /* TravalHw4 */,
+				9ABC07632566629900F20464 /* TravalHw4Tests */,
+				9ABC076E2566629900F20464 /* TravalHw4UITests */,
+				9ABC07502566629700F20464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABC07502566629700F20464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABC074F2566629700F20464 /* TravalHw4.app */,
+				9ABC07602566629900F20464 /* TravalHw4Tests.xctest */,
+				9ABC076B2566629900F20464 /* TravalHw4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABC07512566629700F20464 /* TravalHw4 */ = {
+			isa = PBXGroup;
+			children = (
+				9ABC07522566629700F20464 /* TravalHw4App.swift */,
+				9ABC07542566629700F20464 /* ContentView.swift */,
+				9ABC07562566629900F20464 /* Assets.xcassets */,
+				9ABC075B2566629900F20464 /* Info.plist */,
+				9ABC07582566629900F20464 /* Preview Content */,
+			);
+			path = TravalHw4;
+			sourceTree = "<group>";
+		};
+		9ABC07582566629900F20464 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9ABC07592566629900F20464 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ABC07632566629900F20464 /* TravalHw4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9ABC07642566629900F20464 /* TravalHw4Tests.swift */,
+				9ABC07662566629900F20464 /* Info.plist */,
+			);
+			path = TravalHw4Tests;
+			sourceTree = "<group>";
+		};
+		9ABC076E2566629900F20464 /* TravalHw4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ABC076F2566629900F20464 /* TravalHw4UITests.swift */,
+				9ABC07712566629900F20464 /* Info.plist */,
+			);
+			path = TravalHw4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABC074E2566629700F20464 /* TravalHw4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABC07742566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4" */;
+			buildPhases = (
+				9ABC074B2566629700F20464 /* Sources */,
+				9ABC074C2566629700F20464 /* Frameworks */,
+				9ABC074D2566629700F20464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravalHw4;
+			productName = TravalHw4;
+			productReference = 9ABC074F2566629700F20464 /* TravalHw4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ABC075F2566629900F20464 /* TravalHw4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABC07772566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4Tests" */;
+			buildPhases = (
+				9ABC075C2566629900F20464 /* Sources */,
+				9ABC075D2566629900F20464 /* Frameworks */,
+				9ABC075E2566629900F20464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ABC07622566629900F20464 /* PBXTargetDependency */,
+			);
+			name = TravalHw4Tests;
+			productName = TravalHw4Tests;
+			productReference = 9ABC07602566629900F20464 /* TravalHw4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ABC076A2566629900F20464 /* TravalHw4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABC077A2566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4UITests" */;
+			buildPhases = (
+				9ABC07672566629900F20464 /* Sources */,
+				9ABC07682566629900F20464 /* Frameworks */,
+				9ABC07692566629900F20464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ABC076D2566629900F20464 /* PBXTargetDependency */,
+			);
+			name = TravalHw4UITests;
+			productName = TravalHw4UITests;
+			productReference = 9ABC076B2566629900F20464 /* TravalHw4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABC07472566629700F20464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9ABC074E2566629700F20464 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9ABC075F2566629900F20464 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9ABC074E2566629700F20464;
+					};
+					9ABC076A2566629900F20464 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9ABC074E2566629700F20464;
+					};
+				};
+			};
+			buildConfigurationList = 9ABC074A2566629700F20464 /* Build configuration list for PBXProject "TravalHw4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ABC07462566629700F20464;
+			productRefGroup = 9ABC07502566629700F20464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABC074E2566629700F20464 /* TravalHw4 */,
+				9ABC075F2566629900F20464 /* TravalHw4Tests */,
+				9ABC076A2566629900F20464 /* TravalHw4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABC074D2566629700F20464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABC075A2566629900F20464 /* Preview Assets.xcassets in Resources */,
+				9ABC07572566629900F20464 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC075E2566629900F20464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC07692566629900F20464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABC074B2566629700F20464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABC07552566629700F20464 /* ContentView.swift in Sources */,
+				9ABC07532566629700F20464 /* TravalHw4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC075C2566629900F20464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABC07652566629900F20464 /* TravalHw4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ABC07672566629900F20464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABC07702566629900F20464 /* TravalHw4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ABC07622566629900F20464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ABC074E2566629700F20464 /* TravalHw4 */;
+			targetProxy = 9ABC07612566629900F20464 /* PBXContainerItemProxy */;
+		};
+		9ABC076D2566629900F20464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ABC074E2566629700F20464 /* TravalHw4 */;
+			targetProxy = 9ABC076C2566629900F20464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9ABC07722566629900F20464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ABC07732566629900F20464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABC07752566629900F20464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravalHw4/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravalHw4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ABC07762566629900F20464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravalHw4/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravalHw4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ABC07782566629900F20464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravalHw4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravalHw4.app/TravalHw4";
+			};
+			name = Debug;
+		};
+		9ABC07792566629900F20464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravalHw4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravalHw4.app/TravalHw4";
+			};
+			name = Release;
+		};
+		9ABC077B2566629900F20464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravalHw4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravalHw4;
+			};
+			name = Debug;
+		};
+		9ABC077C2566629900F20464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravalHw4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosmidern.TravalHw4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravalHw4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABC074A2566629700F20464 /* Build configuration list for PBXProject "TravalHw4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABC07722566629900F20464 /* Debug */,
+				9ABC07732566629900F20464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABC07742566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABC07752566629900F20464 /* Debug */,
+				9ABC07762566629900F20464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABC07772566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABC07782566629900F20464 /* Debug */,
+				9ABC07792566629900F20464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABC077A2566629900F20464 /* Build configuration list for PBXNativeTarget "TravalHw4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABC077B2566629900F20464 /* Debug */,
+				9ABC077C2566629900F20464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ABC07472566629700F20464 /* Project object */;
+}
