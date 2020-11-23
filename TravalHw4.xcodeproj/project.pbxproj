@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A63B4DC256C0C3400CF9D70 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B4DB256C0C3400CF9D70 /* LineChart.swift */; };
+		9A63B4E1256C0E9500CF9D70 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63B4E0256C0E9500CF9D70 /* LineChartView.swift */; };
 		9ABC07532566629700F20464 /* TravalHw4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07522566629700F20464 /* TravalHw4App.swift */; };
 		9ABC07552566629700F20464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07542566629700F20464 /* ContentView.swift */; };
 		9ABC07572566629900F20464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC07562566629900F20464 /* Assets.xcassets */; };
 		9ABC075A2566629900F20464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC07592566629900F20464 /* Preview Assets.xcassets */; };
 		9ABC07652566629900F20464 /* TravalHw4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07642566629900F20464 /* TravalHw4Tests.swift */; };
 		9ABC07702566629900F20464 /* TravalHw4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC076F2566629900F20464 /* TravalHw4UITests.swift */; };
+		9ABC0781256662C400F20464 /* Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC0780256662C400F20464 /* Zoom.swift */; };
+		9ABC07862566630600F20464 /* ZoomsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07852566630600F20464 /* ZoomsData.swift */; };
+		9ABC078B2566633500F20464 /* ZoomRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC078A2566633500F20464 /* ZoomRow.swift */; };
+		9ABC07902566637D00F20464 /* ZoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC078F2566637D00F20464 /* ZoomList.swift */; };
+		9ABC07952566643900F20464 /* ZoomEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07942566643900F20464 /* ZoomEditor.swift */; };
+		9ABC079A25690C4500F20464 /* CharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC079925690C4500F20464 /* CharView.swift */; };
+		9ABC07A0256A560C00F20464 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC079F256A560C00F20464 /* PieChart.swift */; };
+		9ABC07A5256A58B500F20464 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07A4256A58B500F20464 /* PieChartView.swift */; };
+		9ABC07AF256A6D0500F20464 /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07AE256A6D0500F20464 /* DonutChartView.swift */; };
+		9ABC07B7256A6F7200F20464 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC07B6256A6F7200F20464 /* DonutChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A63B4DB256C0C3400CF9D70 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		9A63B4E0256C0E9500CF9D70 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		9ABC074F2566629700F20464 /* TravalHw4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravalHw4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABC07522566629700F20464 /* TravalHw4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravalHw4App.swift; sourceTree = "<group>"; };
 		9ABC07542566629700F20464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +59,16 @@
 		9ABC076B2566629900F20464 /* TravalHw4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravalHw4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABC076F2566629900F20464 /* TravalHw4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravalHw4UITests.swift; sourceTree = "<group>"; };
 		9ABC07712566629900F20464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABC0780256662C400F20464 /* Zoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoom.swift; sourceTree = "<group>"; };
+		9ABC07852566630600F20464 /* ZoomsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomsData.swift; sourceTree = "<group>"; };
+		9ABC078A2566633500F20464 /* ZoomRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomRow.swift; sourceTree = "<group>"; };
+		9ABC078F2566637D00F20464 /* ZoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomList.swift; sourceTree = "<group>"; };
+		9ABC07942566643900F20464 /* ZoomEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomEditor.swift; sourceTree = "<group>"; };
+		9ABC079925690C4500F20464 /* CharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharView.swift; sourceTree = "<group>"; };
+		9ABC079F256A560C00F20464 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		9ABC07A4256A58B500F20464 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		9ABC07AE256A6D0500F20464 /* DonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
+		9ABC07B6256A6F7200F20464 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,18 @@
 			children = (
 				9ABC07522566629700F20464 /* TravalHw4App.swift */,
 				9ABC07542566629700F20464 /* ContentView.swift */,
+				9ABC079925690C4500F20464 /* CharView.swift */,
+				9ABC0780256662C400F20464 /* Zoom.swift */,
+				9ABC07852566630600F20464 /* ZoomsData.swift */,
+				9ABC078A2566633500F20464 /* ZoomRow.swift */,
+				9ABC078F2566637D00F20464 /* ZoomList.swift */,
+				9ABC079F256A560C00F20464 /* PieChart.swift */,
+				9ABC07A4256A58B500F20464 /* PieChartView.swift */,
+				9ABC07AE256A6D0500F20464 /* DonutChartView.swift */,
+				9ABC07B6256A6F7200F20464 /* DonutChart.swift */,
+				9A63B4DB256C0C3400CF9D70 /* LineChart.swift */,
+				9A63B4E0256C0E9500CF9D70 /* LineChartView.swift */,
+				9ABC07942566643900F20464 /* ZoomEditor.swift */,
 				9ABC07562566629900F20464 /* Assets.xcassets */,
 				9ABC075B2566629900F20464 /* Info.plist */,
 				9ABC07582566629900F20464 /* Preview Content */,
@@ -259,8 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABC07A0256A560C00F20464 /* PieChart.swift in Sources */,
+				9ABC07862566630600F20464 /* ZoomsData.swift in Sources */,
+				9ABC07AF256A6D0500F20464 /* DonutChartView.swift in Sources */,
+				9A63B4E1256C0E9500CF9D70 /* LineChartView.swift in Sources */,
+				9ABC07B7256A6F7200F20464 /* DonutChart.swift in Sources */,
+				9ABC078B2566633500F20464 /* ZoomRow.swift in Sources */,
+				9A63B4DC256C0C3400CF9D70 /* LineChart.swift in Sources */,
+				9ABC079A25690C4500F20464 /* CharView.swift in Sources */,
 				9ABC07552566629700F20464 /* ContentView.swift in Sources */,
 				9ABC07532566629700F20464 /* TravalHw4App.swift in Sources */,
+				9ABC07A5256A58B500F20464 /* PieChartView.swift in Sources */,
+				9ABC07902566637D00F20464 /* ZoomList.swift in Sources */,
+				9ABC0781256662C400F20464 /* Zoom.swift in Sources */,
+				9ABC07952566643900F20464 /* ZoomEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

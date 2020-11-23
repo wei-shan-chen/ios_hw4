@@ -1,16 +1,27 @@
-//
-//  ContentView.swift
-//  TravalHw4
-//
-//  Created by 葉之霆 on 2020/11/19.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var zoomsData = ZoomsData()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            TabView{
+                ZoomList(zoomsData: self.zoomsData)
+                    .tabItem {
+                    Text("表格")
+                    Image(systemName: "doc.fill")
+                }
+                CharView(zoomsData: self.zoomsData)
+                    .tabItem {
+                    Text("圖表")
+                    Image(systemName: "star.circle.fill")
+                }
+                
+            }
+            .accentColor(.pink)
+        }
+        
     }
 }
 
@@ -19,3 +30,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
